@@ -1,0 +1,211 @@
+
+/*
+1. FONTS -------------------------------------------------------------------------------------
+*/
+@font-face {
+	font-family: Lato;
+	src: url('fonts/lato-v15-latin-regular.ttf');
+}
+
+@font-face {
+	font-family: Lato;
+	src: url('fonts/lato-v15-latin-900.ttf');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: Marcellus;
+	src: url('fonts/Marcellus-Regular.ttf');
+}
+
+
+/*
+2. CSS ---------------------------------------------------------------------------------------
+*/
+.caat_navbar a {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+	color: #000000;
+}
+
+.home_img1 {
+	background: url('../images/home1.png');
+	background-size: cover;
+	width: 100%;
+	height: 44.02vw; //1438 x 6333
+}
+
+.home_img2 {
+	background: url('../images/home2.png');
+	background-size: cover;
+	width: 100%;
+	height: 29.93vw;
+	margin: -7.5vw 0 0;
+}
+
+.remove_padding {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.remove_row_margin {
+	margin-right: 0px !important;
+}
+
+.home_img1_title {
+	padding: 14vw 0 2vw;
+}
+.home_img1_title p {
+	font-family: Marcellus;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 72px;
+	line-height: 80px;
+	color: #101011;
+}
+
+.home_img1_text p {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 28px;
+	color: #101011;
+}
+
+.home_img2_text p {
+	padding: 10vw 0 0;
+}
+.home_img2_text p {
+	font-family: Marcellus;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 42px;
+	line-height: 56px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.home_img3 {
+	background: url('../images/home3.png');
+	background-size: cover;
+	width: 100%;
+	height: 38.68vw;
+	margin: -7.5vw 0 0;
+}
+@media (max-width: 1400px){
+	.home_img1_title p {
+		font-size: 52px;
+		line-height: 60px;
+	}
+	.home_img1_text p {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.home_img2_text p {
+		font-size: 30px;
+		line-height: 40px;	
+	}
+}
+@media (max-width: 1000px){
+	.home_img1_title p {
+		font-size: 42px;
+		line-height: 50px;
+	}
+	.home_img1_text p {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.home_img2_text p {
+		font-size: 20px;
+		line-height: 30px;	
+	}
+}
+@media (max-width: 800px){
+	.home_img1_title p {
+		font-size: 32px;
+		line-height: 40px;
+	}
+	.home_img1_text p {
+		font-size: 10px;
+		line-height: 15px;
+	}
+	.home_img2_text p {
+		font-size: 15px;
+		line-height: 20px;	
+	}
+}
+
+.home_img3_text {
+	padding: 31vw 0 0;
+}
+.home_subtitle p {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+	color: #101011;
+}
+
+.home_title p{
+	font-family: Marcellus;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 42px;
+	line-height: 53px;
+	color: #000000;
+
+}
+
+.home_text p {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 29px;
+	color: #000000;
+}
+
+.home_link a {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	display: flex;
+	align-items: center;
+	color: #E96F62;
+}
+
+.home_link a:hover {
+	color: #ab5349;
+	text-decoration: none;
+}
+
+.home_margTop{
+	margin: 13vw 0 0;
+}
+.home_margTop2{
+	margin: 9vw 0 0;
+}
+
+.img_responsive {
+	max-width: 100%;
+	height: auto;
+}
+
+.home_textMarg {
+	margin: 2vw 0 0;
+}
+
+.home_img5{
+	background: url('../images/home5.png');
+	background-size: cover;
+	width: 100%;
+	height: 63.75vw;
+}
