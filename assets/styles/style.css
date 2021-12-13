@@ -185,8 +185,76 @@
 	text-decoration: none;
 }
 
+.home_img5Pad {
+	padding-top: 6vw;
+}
+
+@media (max-width: 1400px){
+	.home_subtitle p {
+		font-size: 10px;
+		line-height: 20px;
+	}
+	.home_title p {
+		font-size: 36px;
+		line-height: 46px;
+	}
+	.home_text p {
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.home_link a {
+		font-size: 18px;
+		line-height: 22px;
+	}
+	.home_img5Pad {
+		padding-top: 2vw;
+	}
+}
+@media (max-width: 1000px){
+	.home_subtitle p {
+		font-size: 8px;
+		line-height: 16px;
+	}
+	.home_title p {
+		font-size: 28px;
+		line-height: 36px;
+	}
+	.home_text p {
+		font-size: 12px;
+		line-height: 18px;
+	}
+	.home_link a {
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.home_img5Pad {
+		padding-top: 1vw;
+	}
+}
+@media (max-width: 800px){
+	.home_subtitle p {
+		font-size: 6px;
+		line-height: 16px;
+	}
+	.home_title p {
+		font-size: 20px;
+		line-height: 28px;
+	}
+	.home_text p {
+		font-size: 10px;
+		line-height: 14px;
+	}
+	.home_link a {
+		font-size: 12px;
+		line-height: 16px;
+	}
+	.home_img5Pad {
+		padding-top: 1vw;
+	}
+}
+
 .home_margTop{
-	margin: 15vw 0 0;
+	margin: 18vw 0 0;
 }
 .home_margTop2{
 	margin: 12vw 0 0;
@@ -265,6 +333,7 @@
 .home_projCode{
 	padding: 1.5vw 0 0;
 	height: 70px;
+
 }
 .home_projCode p {
 	font-family: Lato;
@@ -275,6 +344,79 @@
 	letter-spacing: 0.16em;
 	text-transform: uppercase;
 	color: #6A707B;
+}
+
+@media(max-width: 1400px){
+	.home_projOrg {
+		height: 25px;
+	}
+	.home_projOrg p {
+		font-size: 10px;
+		line-height: 16px;
+	}
+	.home_projTitle {
+		padding: 0.5vw 0 0;
+		height: 40px;
+	}
+	.home_projTitle a {
+		font-size: 20px;
+		line-height: 28px;
+	}
+	.home_projCode {
+		height: 50px;
+	}
+	.home_projCode p {
+		font-size: 8px;
+		line-height: 14px;
+	}
+}
+@media(max-width: 1000px){
+	.home_projOrg {
+		height: 20px;
+	}
+	.home_projOrg p {
+		font-size: 8px;
+		line-height: 14px;
+	}
+	.home_projTitle {
+		padding: 1vw 0 0;
+		height: 40px;
+	}
+	.home_projTitle a {
+		font-size: 16px;
+		line-height: 22px;
+	}
+	.home_projCode {
+		height: 45px;
+	}
+	.home_projCode p {
+		font-size: 6px;
+		line-height: 12px;
+	}
+}
+@media(max-width: 800px){
+	.home_projOrg {
+		height: 20px;
+	}
+	.home_projOrg p {
+		font-size: 7px;
+		line-height: 13px;
+	}
+	.home_projTitle {
+		padding: 1vw 0 0;
+		height: 30px;
+	}
+	.home_projTitle a {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.home_projCode {
+		height: 35px;
+	}
+	.home_projCode p {
+		font-size: 6px;
+		line-height: 12px;
+	}
 }
 
 .home_work{
