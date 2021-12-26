@@ -26,9 +26,56 @@
 	font-family: Lato;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 16px;
+	font-size: 20px;
 	line-height: 19px;
 	color: #000000;
+}
+.caat_navbar a:hover {
+	color:#2A4A30;
+	font-weight: bold;
+}
+
+.caat_navbar{
+	height: 4vw;
+}
+.caat_navbar img {
+	height: 4vw;
+}
+@media (max-width: 1400px){
+	.caat_navbar a {
+		font-size: 16px;
+		line-height: 18px;
+	}
+	.caat_navbar {
+		height: 5vw;
+	}
+	.caat_navbar img {
+		height: 5vw;	
+	}
+}
+@media (max-width: 1000px){
+	.caat_navbar a {
+		font-size: 14px;
+		line-height: 16px;
+	}
+	.caat_navbar {
+		height: 6vw;
+	}
+	.caat_navbar img {
+		height: 6vw;	
+	}
+}
+@media (max-width: 800px){
+	.caat_navbar a {
+		font-size: 12px;
+		line-height: 14px;
+	}
+	.caat_navbar {
+		height: 7vw;
+	}
+	.caat_navbar img {
+		height: 7vw;	
+	}
 }
 
 .home_img1 {
