@@ -82,7 +82,7 @@
 	background: url('../images/home1.png');
 	background-size: cover;
 	width: 100%;
-	height: 44.02vw; //1438 x 6333
+	height: 44.02vw; 
 }
 
 .home_img2 {
@@ -504,6 +504,13 @@
 	height: 50.13vw;
 }
 
+.goals_img2 {
+	background: url('../images/goals2.png');
+	background-size: cover;
+	width: 100%;
+	height: 50.18vw;
+}
+
 .goals_padtop {
 	padding: 10vw 0 0 0;
 }
@@ -523,5 +530,40 @@
 	font-weight: normal;
 	font-size: 20px;
 	line-height: 30px;
+	color: #000000;
+}
+
+.goals_title p {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 36px;
+	color: #000000;
+}
+
+.goals_subtitle p {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 36px;
+	color: #000000;
+}
+.goals_text1 p {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 26px;
+	color: #000000;
+}
+
+.goals_text2 p {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 26px;
 	color: #000000;
 }
