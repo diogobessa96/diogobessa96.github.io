@@ -495,7 +495,7 @@
 	padding: 15px 32px;
 }
 
-/* goals and methodology*/
+/* ----------goals and methodology ----------------------------------*/
 
 .goals_img1 {
 	background: url('../images/goals1.png');
@@ -521,7 +521,7 @@
 	font-weight: normal;
 	font-size: 48px;
 	line-height: 60px;
-	color: #000000;
+	color: #132811;
 }
 
 .goals_toptext p {
@@ -533,37 +533,58 @@
 	color: #000000;
 }
 
-.goals_title p {
-	font-family: 'Lato';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 24px;
-	line-height: 36px;
-	color: #000000;
+.goals_mainTitleMargin {
+	margin: -8vw 0 0 0;
 }
 
-.goals_subtitle p {
+.goals_mainTextMargin {
+	margin: 3vw 0 0 0;
+}
+.goals_mainTitle {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 42px;
+	line-height: 53px;
+	color: #132811;
+}
+
+.goals_title {
+	font-family: 'Lato';
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 32px;
+	color: #285424;
+}
+
+.goals_subtitle {
 	font-family: 'Lato';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 24px;
 	line-height: 36px;
-	color: #000000;
+	color: #132811;
 }
-.goals_text1 p {
+.goals_text1 {
 	font-family: 'Lato';
 	font-style: normal;
 	font-weight: 300;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 26px;
 	color: #000000;
+
+	text-align: justify;
+  	text-justify: inter-word;
 }
 
-.goals_text2 p {
+.goals_text2 {
 	font-family: 'Lato';
 	font-style: normal;
 	font-weight: 300;
 	font-size: 14px;
 	line-height: 26px;
 	color: #000000;
+
+	text-align: justify;
+  	text-justify: inter-word;
 }
