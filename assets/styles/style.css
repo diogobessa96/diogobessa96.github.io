@@ -762,3 +762,42 @@
 .who_marginTop{
 	margin-top: 5vw;
 }
+
+
+/* -------------------- contact us ---------------------------- */
+
+.contact_img1 {
+	background: url('../images/contact1.png');
+	background-size: cover;
+	width: 100%;
+	height: 37.5vw;
+}
+
+.contact_img2 {
+	background: url('../images/contact3.png');
+	background-size: cover;
+	width: 100%;
+	height: 68.75vw;
+}
+
+.contact_paddingTop {
+	padding-top: 11vw;;
+}
+
+.contact_topTitle p {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 61px;
+	color: #000000;
+}
+
+.contact_topText p {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	color: #000000;
+}
