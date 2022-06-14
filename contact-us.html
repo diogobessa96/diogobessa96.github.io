@@ -27,10 +27,10 @@
 							<a class="nav-link" href="who-we-are">Who we are</a>
 						</li>
 						<li class="nav-item">
-						    <a class="nav-link" href="#">Projects</a>
+						    <a class="nav-link" href="projects">Projects</a>
 						</li>
 						<li class="nav-item">
-						    <a class="nav-link" href="#">ANBI</a>
+						    <a class="nav-link" href="ANBI">ANBI</a>
 						</li>
 						<li class="nav-item">
 						    <a class="nav-link" href="contact-us">Contact us </a>
@@ -55,7 +55,7 @@
     </div>
 
 	<div>
-		<div class="row">
+		<div class="row contact_marginTop">
 			<div class="col-sm-2"></div>
 			<div class="col-sm-4"><p>To talk to us directly, contact Andreia.</p></div>
 		</div>
@@ -66,7 +66,7 @@
 					<img class="img-fluid" src="assets/images/contact2.png">
 				</div>
 			</div>
-			<div class="col-sm-3">
+			<div class="col-sm-3 contact_removePadLeft">
 				<div>
 					<div><p>Andreia Bessa</p></div>
 					<div><p>andreia@caatprojects.eu</p></div>
@@ -79,7 +79,49 @@
 
 
 	<div class="container-fluid remove_padding">
-		<div class="contact_img2"></div>
+		<div class="contact_img2">
+			<div class="contact_form">
+				<div class="row contact_formPadTop">
+					<div class="col-sm-1"></div>
+					<div class="col-sm-5 contact_formTitle"><p>Send a message</p></div>
+				</div>
+				<div class="row">
+					<div class="col-sm-1"></div>
+					<div class="col-sm-8 contact_formSubTitle"><p>... or ask a question. We’ll get back to you as soon as possible.</p></div>
+				</div>
+				<form name="gform" id="gform" enctype="text/plain" 
+				action="https://docs.google.com/forms/d/e/1FAIpQLSdXMTJJZ1x-31HCWI9G9yuMmYr-COB_Qgz-U-JFEKVy1LPsSw/formResponse?" 
+				target="hidden_iframe" onsubmit="submitted=true;">
+					<div class="form-row contact_fromPadLeftRight">
+						<div class="form-group col-md-4">
+							<label for="inputEmail4">Your name*</label>
+							  <input type ="text" class="form-control" name="entry.1046799506" id="entry.1046799506">
+						</div>
+						<div class="form-group col-md-4">
+							<label for="inputEmail4">Email address*</label>
+							  <input type="email" class="form-control" name="entry.2141447805" id="entry.2141447805">
+						</div>
+						<div class="form-group col-md-4">
+							<label for="inputEmail4">Phone number</label>
+							  <input class="form-control" name="entry.1717448602" id="entry.1717448602">
+						</div>
+					</div>
+					<div class="form-row contact_fromPadLeftRight">
+						<div class="form-group col-md-12">
+							<label for="inputEmail4">Your message*</label>
+							  <textarea style="resize:none" class="form-control" name="entry.1733503468" id="entry.1733503468" rows="5" maxlength="512"></textarea>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-1"></div>
+						<div class="col-sm-4"><p>The *-marked fields are required.</p></div>
+						<div class="col-sm-3"></div>
+						<div class="col-sm-3"><button value="Submit" class="btn contact_btn">Send</button></div>
+					</div>
+				</form>
+				<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+			</div>
+		</div>
 	</div>
 
 
@@ -101,6 +143,6 @@
 			<div class="col-sm-4"></div>
 		</div>
 	</div>
-
+	<script type="text/javascript">var submitted=false;</script>
 </body>
 </html>
