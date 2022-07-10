@@ -42,10 +42,14 @@
 }
 
 .caat_navbar{
-	height: 4vw;
+	height: 3vw;
 }
 .caat_navbar img {
-	height: 4vw;
+	height: 3vw;
+}
+
+.nav_logo a {
+	padding-left: 3vw;
 }
 @media (max-width: 1400px){
 	.caat_navbar a {
@@ -53,10 +57,10 @@
 		line-height: 18px;
 	}
 	.caat_navbar {
-		height: 5vw;
+		height: 4vw;
 	}
 	.caat_navbar img {
-		height: 5vw;	
+		height: 4vw;	
 	}
 }
 @media (max-width: 1000px){
