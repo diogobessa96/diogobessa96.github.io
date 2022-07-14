@@ -28,6 +28,24 @@
 /*
 2. CSS ---------------------------------------------------------------------------------------
 */
+html {
+	font-size: 18px;
+}
+@media (max-width: 1400px){
+	html {
+		font-size: 15px;
+	}
+}
+@media (max-width: 1000px){
+	html {
+		font-size: 12px;
+	}
+}
+@media (max-width: 800px){
+	html {
+		font-size: 10px;
+	}
+}
 .caat_navbar a {
 	font-family: Lato;
 	font-style: normal;
@@ -963,4 +981,166 @@
 	font-size: 20px;
 	line-height: 30px;
 	color: #000000;
+}
+
+.projects_title p {
+	padding-top: 2vw;
+	padding-bottom: 1vw;
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 61px;
+	color: #132811;
+}
+
+.projects_text p {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 22px;
+	color: #000000;
+	
+}
+
+.projects_box {
+	height: 25vw;
+	padding: 3rem 3rem 0 3rem;
+}
+
+.projects_img {
+	width: 100%;
+}
+
+.projects_org {
+	padding-top: 1vw;
+}
+.projects_org p {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 24px;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+	color: #E96F62;
+}
+
+.projects_ititle a {
+	font-family: Marcellus;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 30px;
+	color: #000000;
+}
+
+
+.projects_code p {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.7rem;
+	line-height: 24px;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+	color: #6A707B;
+	position: absolute;
+	bottom:0;
+	left: 10%;
+	right: 10%;
+	margin: 0.2rem;
+}
+
+/* --------------------- individual projects ----------------------*/
+
+.projectstmp_img1 {
+	background: url('../images/projectstmp1.png');
+	background-size: cover;
+	width: 100%;
+	height: 35vw;
+}
+
+.projectstmp_paddingSides{
+	width: 60vw !important;
+}
+
+.projectstmp_card {
+	margin-top: -18vw;
+	background-color: #FFFFFF;
+}
+
+.prjectstmp_button {
+	margin-top: -3vw !important;
+	margin-left: -2.5vw !important;
+}
+
+.prjectstmp_button button {
+	background-color: #E96F62;
+	color: #FFFFFF;
+	border: none;
+	padding: 1vw 2vw;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.5rem;
+	
+}
+.projectstmp_marginLeft {
+	margin-left: 5vw;
+	padding-bottom: 2vw;
+}
+.projectstmp_title p {
+	padding-top: 4vw;
+	padding-bottom: 1vw;
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 3rem;
+	line-height: 61px;
+	color: #132811;
+}
+
+.projectstmp_desc p {
+	padding-top: 2vw;
+	padding-bottom: 2vw;
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1.2rem;
+	line-height: 22px;
+	color: #000000;
+}
+
+.projectstmp_info p {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1rem;
+	line-height: 22px;
+	color: #000000;
+}
+
+.projectstmp_img2 {
+	background: url('../images/projectstmp2.png');
+	background-size: cover;
+	width: 100%;
+	
+}
+
+.projectstmp_marginTop {
+	margin: 3vw;
+}
+
+.projectstmp_padding {
+	padding: 10vw 0 0 0;
+}
+
+.projectstmp_padding2 {
+	padding: 1vw 0 9vw 0;
+}
+
+.projectstmp_padding3 {
+	padding: 1vw 0 0 0;
 }
