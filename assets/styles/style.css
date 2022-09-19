@@ -786,7 +786,9 @@ html {
 .who_marginTop{
 	margin-top: 4vw;
 }
-
+.who_marginBot {
+	margin-bottom: 2vw;
+}
 .who_histText {
 	font-family: 'Lato';
 	font-style: normal;
@@ -1006,6 +1008,20 @@ html {
 
 .anbi_paddingBot {
 	padding-bottom: 15vw;
+}
+
+.anbi_link a {
+	font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #E96F62;
+}
+
+.anbi_link a:hover {
+	color: #ab5349;
+	text-decoration: none;
 }
 
 /* --------------------------- projects --------------------- */
