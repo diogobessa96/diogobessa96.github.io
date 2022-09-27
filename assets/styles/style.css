@@ -1138,7 +1138,7 @@ html {
 }
 
 .projectstmp_paddingSides{
-	width: 60vw !important;
+	width: 80vw !important;
 }
 
 .projectstmp_card {
@@ -1188,34 +1188,96 @@ html {
 	color: #000000;
 }
 
-.projectstmp_info p {
+.projectstmp_infoTitle {
+	color: #0e2c08;
+	font-family: 'Lato';
+	font-size: 1rem;
+	line-height: 22px;
+	display: inline;
+}
+
+.projectstmp_info {
 	font-family: 'Lato';
 	font-style: normal;
 	font-weight: 300;
 	font-size: 1rem;
 	line-height: 22px;
 	color: #000000;
+	display: inline;
 }
+
+.projectstmp_descTitle {
+	padding-top: 6vw;
+}
+.projectstmp_descTitle  p {
+	font-family: 'Lato';
+	font-style: normal;
+	font-size: 2rem;
+	color: #132811;
+}
+.projectstmp_desc p {
+	font-family: 'Lato';
+	font-style: normal;
+	font-size: 1.2rem;
+	line-height: 1.4rem;
+	color: #000000;
+	text-align: justify;
+
+}
+
 
 .projectstmp_img2 {
 	background: url('../images/projectstmp2.png');
 	background-size: cover;
 	width: 100%;
-	
 }
 
 .projectstmp_marginTop {
 	margin: 3vw;
 }
 
+.projectstmp_objTitle p {
+	font-family: 'Lato';
+	font-style: normal;
+	font-size: 2rem;
+	color: #FFFFFF;
+}
+.projectstmp_obj p {
+	font-family: 'Lato';
+	font-style: normal;
+	font-size: 0.9rem;
+	line-height: 1.2rem;
+	color: #FFFFFF;
+}
+
 .projectstmp_padding {
-	padding: 10vw 0 0 0;
+	padding: 8vw 0 0 0;
 }
 
 .projectstmp_padding2 {
-	padding: 1vw 0 9vw 0;
+	padding: 3vw 0 9vw 0;
 }
 
 .projectstmp_padding3 {
 	padding: 1vw 0 0 0;
+}
+
+/* ----- caucan ----*/
+
+.projectsCaucan_img1 {
+	background: url('../images/projCaucan.png');
+	background-size: cover;
+	width: 100%;
+	height: 42.3vw;
+}
+
+.projectsCaucan_title p {
+	padding-top: 4vw;
+	padding-bottom: 1vw;
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2.6rem;
+	line-height: 61px;
+	color: #132811;
 }
