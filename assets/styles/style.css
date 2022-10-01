@@ -1080,12 +1080,14 @@ html {
 }
 
 .projects_box {
-	height: 25vw;
+	height: 28vw;
 	padding: 3rem 3rem 0 3rem;
 }
 
 .projects_img {
+	background-size: cover;
 	width: 100%;
+	
 }
 
 .projects_org {
@@ -1106,25 +1108,27 @@ html {
 	font-family: Marcellus;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 24px;
-	line-height: 30px;
+	font-size: 1.3rem;
+	line-height: 1.4rem;
 	color: #000000;
 }
 
+.projects_ititle a:hover{
+	color: #2A4A30;
+	text-decoration: none;
+}
 
+.projects_code {
+	padding-top: 1vw;
+}
 .projects_code p {
 	font-family: Lato;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 0.7rem;
-	line-height: 24px;
+	line-height: 0.8rem;
 	letter-spacing: 0.16em;
 	text-transform: uppercase;
 	color: #6A707B;
-	position: absolute;
 	bottom:0;
-	left: 10%;
-	right: 10%;
 	margin: 0.2rem;
 }
 
@@ -1209,7 +1213,16 @@ html {
 .projectstmp_descTitle {
 	padding-top: 6vw;
 }
+.projectstmp_descTitle2 {
+	padding-top: 3vw;
+}
 .projectstmp_descTitle  p {
+	font-family: 'Lato';
+	font-style: normal;
+	font-size: 2rem;
+	color: #132811;
+}
+.projectstmp_descTitle2  p {
 	font-family: 'Lato';
 	font-style: normal;
 	font-size: 2rem;
@@ -1262,10 +1275,53 @@ html {
 	padding: 1vw 0 0 0;
 }
 
+.projectstmp_photo {
+	margin-top: -2vw;
+}
+
+.porjectstmp_text {
+	padding-top: 5vw;
+}
+.projectstmp_photoBackGorund {
+	background: url('../images/projectstmp3.png');
+	background-size: cover;
+	width: 100%;
+	height: 11vw;
+}
+
+.projectstmp_galleryPad {
+	padding-top: 2vw;
+}
+
+.porjectstmp_text a {
+	font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1rem;
+    line-height: 1rem;
+    color: #E96F62;
+}
+
+.porjectstmp_text a:hover {
+	color: #ab5349;
+	text-decoration: none;
+}
+
+.projectstmp_text2 {
+	margin-top: 2.5vw;
+}
+.projectstmp_text2 p {
+	font-family: 'Lato';
+	font-size: 1rem;
+	line-height: 1rem;
+	text-align: justify;
+	color: #000000;
+}
+
 /* ----- caucan ----*/
 
 .projectsCaucan_img1 {
-	background: url('../images/projCaucan.png');
+	background: url('../images/caucan/projCaucan.png');
 	background-size: cover;
 	width: 100%;
 	height: 42.3vw;
