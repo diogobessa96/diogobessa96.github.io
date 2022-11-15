@@ -1034,7 +1034,7 @@ html {
 }
 
 .projects_paddingTop {
-	padding-top: 9vw;;
+	padding-top: 5vw;;
 }
 .projects_paddingTop2 {
 	padding-top: 2vw;;
@@ -1080,7 +1080,6 @@ html {
 }
 
 .projects_box {
-	height: 28vw;
 	padding: 3rem 3rem 0 3rem;
 }
 
@@ -1103,7 +1102,9 @@ html {
 	text-transform: uppercase;
 	color: #E96F62;
 }
-
+.projects_ititle {
+	height: 5vw;
+}
 .projects_ititle a {
 	font-family: Marcellus;
 	font-style: normal;
@@ -1111,6 +1112,7 @@ html {
 	font-size: 1.3rem;
 	line-height: 1.4rem;
 	color: #000000;
+	height: 10vw;
 }
 
 .projects_ititle a:hover{
@@ -1132,17 +1134,20 @@ html {
 	margin: 0.2rem;
 }
 
+
 /* --------------------- individual projects ----------------------*/
 
 .projectstmp_img1 {
 	background: url('../images/projectstmp1.png');
 	background-size: cover;
-	width: 100%;
+	width: 90%;
 	height: 35vw;
+	margin-left: 5%;
 }
 
 .projectstmp_paddingSides{
-	width: 80vw !important;
+	width: 65vw !important;
+	margin-left: 17.5%;
 }
 
 .projectstmp_card {
@@ -1166,9 +1171,15 @@ html {
 	font-size: 1.5rem;
 	
 }
-.projectstmp_marginLeft {
+.projectstmp_margin {
 	margin-left: 5vw;
+	margin-right: 5vw;
 	padding-bottom: 2vw;
+}
+.projectstmp_margin2 {
+	margin-left: 5vw;
+	margin-right: 5vw;
+	padding-bottom: 5vw;
 }
 .projectstmp_title p {
 	padding-top: 4vw;
@@ -1179,16 +1190,6 @@ html {
 	font-size: 3rem;
 	line-height: 61px;
 	color: #132811;
-}
-
-.projectstmp_desc p {
-	padding-top: 2vw;
-	font-family: 'Lato';
-	font-style: normal;
-	font-weight: 300;
-	font-size: 1.2rem;
-	line-height: 1.5rem;
-	color: #000000;
 }
 
 .projectstmp_infoTitle {
@@ -1221,20 +1222,58 @@ html {
 	font-size: 2rem;
 	color: #132811;
 }
+
 .projectstmp_descTitle2  p {
 	font-family: 'Lato';
 	font-style: normal;
-	font-size: 2rem;
+	font-size: 1.6rem;
+	line-height: 1.9rem;
 	color: #132811;
 }
 .projectstmp_desc p {
+	padding-top: 2vw;
 	font-family: 'Lato';
 	font-style: normal;
 	font-size: 1.2rem;
-	line-height: 1.4rem;
+	line-height: 1.8rem;
 	color: #000000;
 	text-align: justify;
+	font-weight: 300;
 
+}
+.projectstmp_desc2 p {
+	font-family: 'Lato';
+	font-style: normal;
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+	color: #000000;
+	text-align: justify;
+	font-weight: 300;
+
+}
+.projectstmp_descSubTitle {
+	padding-top: 2vw;
+	font-family: 'Lato';
+	font-style: normal;
+	font-size: 1.4rem;
+	line-height: 1.8rem;
+	color: #132811;
+	text-align: justify;
+	
+
+}
+.projectstmp_descTitle2 a {
+	font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: #E96F62;
+}
+
+.projectstmp_descTitle2 a:hover {
+	color: #ab5349;
+	text-decoration: none;
 }
 
 
@@ -1252,14 +1291,24 @@ html {
 	font-family: 'Lato';
 	font-style: normal;
 	font-size: 2rem;
+	line-height: 2.2rem;
+	color: #FFFFFF;
+}
+
+.projectstmp_objTitle2 p {
+	font-family: 'Lato';
+	font-style: normal;
+	font-size: 1.3rem;
+	line-height: 2.7rem;
 	color: #FFFFFF;
 }
 .projectstmp_obj p {
 	font-family: 'Lato';
 	font-style: normal;
-	font-size: 0.9rem;
-	line-height: 1.2rem;
+	font-size: 1.1rem;
+	line-height: 1.5rem;
 	color: #FFFFFF;
+	font-weight: 300;
 }
 
 .projectstmp_padding {
@@ -1276,6 +1325,10 @@ html {
 
 .projectstmp_padding4 {
 	padding: 5vw 0 0 0;
+}
+
+.projectstmp_padding5 {
+	padding-bottom: 8vw;
 }
 
 .projectstmp_photo {
@@ -1326,9 +1379,16 @@ html {
     height: 39vw;
     width: 70vw;
 }
+.embeded-video2 embed {
+    height: 39vw;
+    width: 70vw;
+}
 
 .embeded-video {
 	padding: 7vw 0 5vw 0;
+}
+.embeded-video2 {
+	padding: 3vw 0 5vw 0;
 }
 
 /* ----- caucan ----*/
@@ -1336,8 +1396,9 @@ html {
 .projectsCaucan_img1 {
 	background: url('../images/caucan/projCaucan.png');
 	background-size: cover;
-	width: 100%;
+	width: 90%;
 	height: 42.3vw;
+	margin-left: 5%;
 }
 
 .projectsCaucan_title p {
@@ -1356,6 +1417,51 @@ html {
 .projectsPaticipArt_img1 {
 	background: url('../images/participArt/projParticipArt.png');
 	background-size: cover;
-	width: 100%;
+	width: 90%;
 	height: 42.3vw;
+	margin-left: 5%;
+}
+
+
+/*----- All in same boat -------*/
+
+.projectsAllin_img1 {
+	background: url('../images/allin/projAllin.png');
+	background-size: cover;
+	width: 90%;
+	height: 42.3vw;
+	margin-left: 5%;
+}
+
+
+/*-------- Living Land --------*/
+.projectsLivingLand_img1 {
+	background: url('../images/livingLand/projLivingLand.png');
+	background-size: cover;
+	width: 90%;
+	height: 42.3vw;
+	margin-left: 5%;
+}
+
+/* -------- YouthLab --------------*/
+.projectsYouthLab_img1 {
+	background: url('../images/youthLab/projYouthLab.png');
+	background-size: cover;
+	width: 90%;
+	height: 42.3vw;
+	margin-left: 5%;
+}
+
+.projectstmp_marginsDescText {
+	margin-left: 1vw;
+	margin-right: 1vw;
+}
+
+/* -------- DICE---------*/
+.projectsDice_img1 {
+	background: url('../images/dice/projDice.png');
+	background-size: cover;
+	width: 90%;
+	height: 42.3vw;
+	margin-left: 5%;
 }
