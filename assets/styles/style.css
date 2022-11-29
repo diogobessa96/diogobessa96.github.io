@@ -967,13 +967,13 @@ html {
 }
 
 .anbi_title p {
-	padding-top: 4vw;
+	padding-top: 10vw;
 	padding-bottom: 3vw;
 	font-family: 'Lato';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 40px;
-	line-height: 61px;
+	font-size: 2.6rem;
+	line-height: 3rem;
 	color: #132811;
 }
 
@@ -981,19 +981,32 @@ html {
 	font-family: 'Lato';
 	font-style: normal;
 	font-weight: 300;
-	font-size: 18px;
-	line-height: 22px;
+	font-size: 1.3rem;
+	line-height: 1.5rem;
 	color: #000000;
 	text-align: justify;
 }
 
-.anbi_subTitle p {
-	padding-top: 3vw;
+.anbi_text2 p {
+	margin-left: 2vw;
+	margin-right: 2vw;
 	font-family: 'Lato';
 	font-style: normal;
-	font-size: 30px;
-	line-height: 61px;
+	font-weight: 300;
+	font-size: 1.2rem;
+	line-height: 1.4rem;
+	color: #000000;
+	text-align: justify;
+}
+
+
+.anbi_subTitle p {
+	font-family: 'Lato';
+	font-style: normal;
+	font-size: 2.4rem;
+	line-height: 2.5rem;
 	color: #132811;
+	padding-top: 4vw;
 }
 
 .anbi_subTitle2 p {
@@ -1001,8 +1014,8 @@ html {
 	font-family: 'Lato';
 	font-weight: bold;
 	font-style: normal;
-	font-size: 18px;
-	line-height: 20px;
+	font-size: 1.7rem;
+	line-height: 2.4rem;
 	color: #285424;
 }
 
